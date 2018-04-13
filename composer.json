@@ -1,5 +1,5 @@
 {
-    "name": "jacobshenning/LiteRouter",
+    "name": "jacobshenning/lite-router",
     "description": "A small little router ready to adapt to your environment",
     "require": {
         "php": "^5.3.3 || ^7.0"
