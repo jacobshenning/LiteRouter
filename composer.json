@@ -1,6 +1,7 @@
 {
     "name": "jacobshenning/lite-router",
     "description": "A small little router ready to adapt to your environment",
+    "license": "MIT",
     "require": {
         "php": "^5.3.3 || ^7.0"
     },
