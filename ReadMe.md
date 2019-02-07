@@ -1,4 +1,4 @@
-# Lite Router
+# PHP Router Class
 
 Lite Router is a small Router to get you started without forcing any sort of framework or structure onto your projects.
 
