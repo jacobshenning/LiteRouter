@@ -249,7 +249,9 @@ class Router {
         } else {
             if (is_string($match['target']) && strpos($match['target'], '@')) {
                 list( $controller, $action ) = explode( '@', $match['target'] );
-                $controller = $match['namespace'] . $controller;
+                if ($match['namespace']) {
+                    $controller = $match['namespace'] . $controller;
+                }
                 if ( is_callable(array($controller, $action)) ) {
                     call_user_func_array(array($controller,$action), array($match['params']));
                 } else {
